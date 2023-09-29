@@ -42,16 +42,43 @@ header h1 {
 
 nav {
     background-color: var(--secondary-accent);
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.nav-menu {
     display: flex;
     flex-flow: column;
     text-align: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.inactive {
+    display: none;
+}
+
+.hamburger::before {
+    content: "≡";
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.close::before {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    content: "X";
+}
+
+h3::before {
+    content: "📢";
 }
 
 a {
     text-decoration: none;
 }
 
-nav a {
+nav ul li a {
     padding: 1rem;
     font-size: 1.5rem;
     color: var(--dark-text-accent);
@@ -101,6 +128,14 @@ main h2 {
 .card p {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.card:nth-child(4) {
+    overflow: hidden;
+}
+
+.card iframe {
+    width: 100%;
 }
 
 footer {
