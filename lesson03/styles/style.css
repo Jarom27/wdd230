@@ -87,6 +87,10 @@ nav ul li {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.name {
+    font-size: 2rem;
+}
+
 .palete {
     display: flex;
     gap: .5rem;
