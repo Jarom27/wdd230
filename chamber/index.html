@@ -14,6 +14,7 @@
         content="Obregon's Chamber of Commerce website is the door to improving our community, making known information about the region and the relevant events that will be take place soon.">
     <meta property="og:image" content="https://jarom27.github.io/wdd230/images/mexico.jpg">
     <meta property="og:url" content="https://jarom27.github.io/wdd230/chamber/">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,14 +22,17 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="">
+        <img src="images/opt-logo.png" alt="">
     </header>
     <nav>
-        <ul>
+        <span class="display-menu"></span>
+        <ul class="menu inactive">
             <li><a href="">Home</a></li>
             <li><a href="">Discover</a></li>
             <li><a href="">Join</a></li>
@@ -36,9 +40,66 @@
         </ul>
     </nav>
     <main>
+        <picture class="hero">
+            <source media="(max-width: 500px)" srcset="images/min-hero.png">
+            <img src="images/opt-hero.jpg" alt="">
+        </picture>
+        <section class="card weather">
+            <h2>Weather</h2>
+            <p>41.5°C</p>
+            <p>Sunny</p>
+            <p>Windchill: 400mi/h</p>
+        </section>
+        <section class="card events">
+            <h2>Events</h2>
+            <article>
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo minima voluptatibus quis, perspiciatis
+                    optio eaque iste sunt aperiam perferendis enim laboriosam ab eveniet placeat saepe incidunt
+                    temporibus doloremque veniam quos!</p>
+            </article>
+        </section>
+        <section class="community">
+            <div>
+                <h2>Our Comunnity</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dicta, earum cumque modi, fuga unde
+                    repellendus quasi consequatur magnam possimus sequi tempora temporibus mollitia tempore voluptate
+                    officia consectetur reprehenderit. Voluptates?</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14148.764322853129!2d-109.937777!3d27.55657965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1695961690230!5m2!1ses-419!2smx"
+                width="1440" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
 
+        <section class="spotlights">
+            <h2>Directory of principal members</h2>
+            <article>
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Company Slogan</p>
+                <a href="">lorem.qes@email.com</a>
+                <p>+999-999-9999</p>
+                <a href="">Visit Site</a>
+            </article>
+            <article>
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Company Slogan</p>
+                <a href="">lorem.qes@email.com</a>
+                <p>+999-999-9999</p>
+                <a href="">Visit Site</a>
+            </article>
+            <article>
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Company Slogan</p>
+                <a href="">lorem.qes@email.com</a>
+                <p>+999-999-9999</p>
+                <a href="">Visit Site</a>
+            </article>
+        </section>
     </main>
     <footer>
+        <p><span id="year"></span>Jarom Mariscal | Last Modification <span id="updated"></span></p>
+        <P>This is a project for WDD230 Web Development course</P>
     </footer>
 </body>
 
