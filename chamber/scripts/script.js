@@ -14,12 +14,16 @@ const darkSwitch = document.querySelector(".switch");
 const checkbox = document.querySelector(".switch input");
 darkSwitch.addEventListener("click", () => {
     const header = document.querySelector("header");
+    const logo = document.querySelector("header img")
     if (checkbox.checked == true) {
         header.classList.toggle("dark");
         document.body.classList.toggle("dark");
+        logo.src = "images/opt-dark-logo.png";
+
     }
     else {
         header.classList.remove("dark");
         document.body.classList.remove("dark");
+        logo.src = "images/transparent-logo.png";
     }
 });
