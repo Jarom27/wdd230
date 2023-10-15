@@ -27,6 +27,8 @@ header {
 }
 
 header img {
+    width: 200px;
+    height: 65px;
     grid-column: 2;
 }
 
