@@ -138,6 +138,26 @@ main h2 {
     width: 100%;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero-label {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: var(--secondary-accent);
+    color: var(--dark-text-accent);
+    padding: 1rem;
+    opacity: .7;
+}
+
+.hero-label p {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+
 footer {
     padding: 2rem;
     background-color: #DD1C1A;
