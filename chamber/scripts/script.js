@@ -18,12 +18,12 @@ darkSwitch.addEventListener("click", () => {
     if (checkbox.checked == true) {
         header.classList.toggle("dark");
         document.body.classList.toggle("dark");
-        logo.src = "images/opt-dark-logo.png";
+        logo.src = "images/opt-dark-logo.webp";
 
     }
     else {
         header.classList.remove("dark");
         document.body.classList.remove("dark");
-        logo.src = "images/transparent-logo.png";
+        logo.src = "images/transparent-logo.webp";
     }
 });
