@@ -27,7 +27,7 @@
 
 <body>
     <header>
-        <img src="images/profile.png" alt="My image">
+        <img src="images/profile.webp" alt="My image">
         <h1>Jarom Mariscal</h1>
     </header>
     <nav>
@@ -45,7 +45,7 @@
         <div class="hero">
             <picture>
                 <source srcset="images/opt-hero.webp" media="(max-width:400px)">
-                <img src="images/hero.webp" alt="The Mexico city Temple">
+                <img src="images/hero.webp" alt="The Mexico city Temple" width="1280" height="800">
             </picture>
             <div class="hero-label">
                 <p>Mexico City Temple</p>
@@ -76,7 +76,7 @@
             <h3>Information</h3>
             <p>Obregon, Sonora, Mex</p>
             <p>100°F Sunshine</p>
-            <p>Page Visits : 15</p>
+            <p>Page Visits : <span id="visits"></span></p>
         </section>
         <section class="card">
             <h3>My Location</h3>
@@ -93,6 +93,7 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 
 </html>

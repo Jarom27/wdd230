@@ -1,0 +1,1 @@
+document.getElementById("last-modification").textContent = document.lastModified;

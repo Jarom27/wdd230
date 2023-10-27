@@ -141,6 +141,11 @@ a {
 
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 iframe {
     width: 100%;
     aspect-ratio: 1/1;
