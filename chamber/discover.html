@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/script.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
 </head>
 
 <body>
@@ -45,7 +46,35 @@
         </ul>
     </nav>
     <main class="grid">
+        <section class="content">
+            <article>
+                <h2 id="visits"></h2>
+            </article>
+            <article>
+                <h2>Weather</h2>
+                <p><span id="temperature">49</span>°F</p>
+                <p>Sunny</p>
+                <p>Wind speed: <span id="wind-speed">3.4</span>mph</p>
+                <p>Windchill: <span id="windchill"></span></p>
+            </article>
+            <article>
+                <h2>Demographics</h2>
+                <p>329,404 people</p>
+                <p>160,857 men</p>
+                <p>168,547 women</p>
+            </article>
+            <article>
 
+            </article>
+        </section>
+        <section class="gallery">
+            <img loading="lazy" src="images/accra-ghana.webp" alt="Accra Ghana Temple">
+            <img loading="lazy" src="images/brigham-city.webp" alt="Brigham City, Utah Temple">
+            <img loading="lazy" src="images/buenos-aires.webp" alt="Buenos Aires, Argentina Temple">
+            <img loading="lazy" src="images/salt-lake.webp" alt="Salt Lake, Utah Temple">
+            <img loading="lazy" src="images/seul.webp" alt="Seul,South Korea Temple">
+            <img loading="lazy" src="images/tijuana.webp" alt="Tijuana, Mexico Temple">
+        </section>
     </main>
     <footer>
         <p><span id="year"></span>Jarom Mariscal | Last Modification <span id="updated"></span></p>
