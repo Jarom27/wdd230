@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form build</title>
+    <meta name="author" content="Jarom Mariscal">
+    <meta name="description" content="This page is for Form build Activity">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Form Build</h1>
+    </header>
+    <main>
+        <form action="record.html" method="get">
+            <h2>Register User</h2>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required pattern="[a-zA-Z0-9]{8}">
+            <label for="re-password">Repeat Your password</label>
+            <input type="password" id="re-password" name="re-password" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                title="Please enter a valid email address">
+            <label for="rating">Rating</label>
+            <input type="range" name="rating" id="rating" min="1" max="10" step="1">
+            <input type="submit" value="Sign up">
+
+        </form>
+    </main>
+    <footer>
+        <p>Jarom Mariscal Zozaya</p>
+    </footer>
+</body>
+<script src="scripts/form.js"></script>
+
+</html>
