@@ -46,7 +46,47 @@
     </nav>
     <main class="join">
         <form action="thankyou.html" method="get">
+            <h2>Sign Up</h2>
+            <div>
+                <label for="firstname">First Name: </label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" pattern="[A-Za-z0-9[-]]{7}">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@byui.edu" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="bussiness-name">Bussiness Name</label>
+                <input type="text" id="bussiness-name" name="bussiness-name" required>
+            </div>
+            <div>
+                <label for="membership">Membership level:</label>
+                <select name="membership" id="membership">
+                    <option value="NP">Non Profit</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </div>
+            <div>
+                <label for="bussiness">Bussiness Description</label>
+                <textarea name="bussiness" id="bussiness" cols="30" rows="5"></textarea>
+            </div>
 
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Sign Up">
         </form>
         <aside class="memberships">
             <section>
