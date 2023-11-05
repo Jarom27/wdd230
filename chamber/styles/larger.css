@@ -56,4 +56,12 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .join {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .memberships {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
 }
