@@ -1,0 +1,63 @@
+:root {
+    --background-color: #080357;
+    --text-background: #fff;
+    --footer-background: #FF6700;
+    --card-background: #EBEBEB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-background);
+}
+
+h1 {
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: 'Monserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: var(--card-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+section img {
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 325px;
+}
+
+footer {
+    padding: 1rem;
+    background-color: var(--footer-background);
+    color: var(--text-background);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
