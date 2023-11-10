@@ -1,0 +1,87 @@
+{
+  "lessons": [
+    {
+      "lesson": "01",
+      "links": [
+        {
+          "url": "https://jarom27.github.io/wdd230/lesson01/holygrail.html",
+          "title": "Holy Layout"
+        },
+        {
+          "url": "https://codepen.io/Jarom27/pen/GRPMRem",
+          "title": "JS Pen"
+        }
+      ]
+    },
+    {
+      "lesson": "02",
+      "links": [
+        {
+          "url": "lesson01/media-query.html",
+          "title": "Media Queries"
+        },
+        {
+          "url": "lesson02/design.html",
+          "title": "Color Contrast"
+        },
+        {
+          "url": "lesson2/design-principles.html",
+          "title": "Desing Principles"
+        }
+      ]
+    },
+    {
+      "lesson": "03",
+      "links": [
+        {
+          "url": "lesson3/images/combinators.png",
+          "title": "Combinators Screenshots"
+        },
+        {
+          "url": "https://codepen.io/Jarom27/pen/eYbrRQz?editors=1100",
+          "title": "PseudoElements"
+        },
+        {
+          "url": "https://codepen.io/Jarom27/pen/KKbRvwV",
+          "title": "Responsive Menu"
+        }
+      ]
+    },
+    {
+      "lesson": "04",
+      "links": [
+        {
+          "url": "https://codepen.io/Jarom27/pen/jOXePbP?editors=0100",
+          "title": "Pseudo Classes"
+        }
+      ]
+    },
+    {
+      "lesson": "05",
+      "links": [
+        {
+          "url": "https://jarom27.github.io/wdd230/lesson05/bom.html",
+          "title": "Book of Mormon Top Chapters"
+        }
+      ]
+    },
+    {
+      "lesson": "08",
+      "links": [
+        {
+          "url": "form.html",
+          "title": "Form Build"
+        }
+      ]
+    },
+    {
+      "lesson": "09",
+      "links": [
+        {
+          "url": "lesson09/prophets.html",
+          "title": "Prophets Page"
+        }
+      ]
+    }
+  ]
+}
