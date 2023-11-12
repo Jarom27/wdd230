@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Munsa, Cd Obregon",
+      "address": "Nicolás Bravo 1110, Centro, Urb. No. 1",
+      "phone-numbers": ["662-289-0075", "644-414-3128"],
+      "website": "https://www.munsa.com.mx/",
+      "brand-image": "https://www.munsa.com.mx/images/logoindex.png",
+      "membership-level": "Gold"
+    },
+    {
+      "name": "Laboratorios Pasteur",
+      "address": "Allende, 105/B, Centro",
+      "phone-numbers": ["644-414-7355"],
+      "website": "https://www.laboratoriopasteurobregon.com/?utm_source=SeccionAmarilla&utm_medium=Listado-de-Resultados&utm_campaign=412717991&utm_term=empresas",
+      "brand-image": "https://irp.cdn-website.com/c2ce7251/DESKTOP/jpg/216.jpg",
+      "membership-level": "Bronze"
+    },
+    {
+      "name": "Fumigaciones del Mayo",
+      "address": "Adivino, 114,  Solidaridad",
+      "phone-numbers": ["662-136-8200"],
+      "website": "https://www.fumigacionesdelmayo.com/?utm_source=SeccionAmarilla&utm_medium=Listado-de-Resultados&utm_campaign=412805771&utm_term=empresas",
+      "brand-image": "https://irp.cdn-website.com/e326561a/DESKTOP/jpg/063.jpg",
+      "membership-level": "Non-profit"
+    },
+    {
+      "name": "Playeras Star",
+      "address": "Durango 104 Sur C/Esq. con Hidalgo",
+      "phone-numbers": ["644-412-3295"],
+      "website": "http://playerastar.com",
+      "brand-image": "http://playerastar.com/images/logo.png",
+      "membership-level": "Silver"
+    },
+    {
+      "name": "Sumega",
+      "address": "Mercado Unión Bodega 47, Torreón, Lázaro Mercado",
+      "phone-numbers": ["644-413-1963"],
+      "website": "https://www.sumega.com.mx",
+      "brand-image": "https://www.sumega.com.mx/img/logo_sumega.png",
+      "membership-level": "Gold"
+    },
+    {
+      "name": "Sally Beauty",
+      "address": "Guerrero 825, Cumuripa",
+      "phone-numbers": ["614-113-9042"],
+      "website": "https://www.sallymexico.com",
+      "brand-image": "https://sallybeautymx.vtexassets.com/arquivos/logo-sally.svg",
+      "membership-level": "Silver"
+    },
+    {
+      "name": "El Canteron",
+      "address": "Quintana Roo 751, Noroeste",
+      "phone-numbers": ["644-110-1461"],
+      "website": "http://elcanteron.com/",
+      "brand-image": "http://elcanteron.com/img/logo.png",
+      "membership-level": "Bronze"
+    }
+  ]
+}
