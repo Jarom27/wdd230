@@ -156,6 +156,11 @@ main h2 {
     font-size: 2rem;
 }
 
+#weather-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
