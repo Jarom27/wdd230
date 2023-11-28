@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", e => {
                 visitsElement.innerHTML = `You last visited 1 day ago`;
             }
             else {
-                visitsElement.innerHTML = `You last visited ${numberDays} days ago`;
+                visitsElement.innerHTML = `You last visited ${Math.round(numberDays)} days ago`;
             }
         }
     }
