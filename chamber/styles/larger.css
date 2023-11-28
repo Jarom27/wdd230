@@ -28,9 +28,14 @@
         column-gap: 2rem;
     }
 
+    .go-join h1 {
+        font-size: 3rem;
+    }
+
     .go-join {
+        width: auto;
         top: calc(90vh/3);
-        left: calc(90vw/3);
+        left: calc(90vw/5);
     }
 
     .brand-image {
