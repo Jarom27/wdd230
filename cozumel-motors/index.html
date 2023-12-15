@@ -8,10 +8,60 @@
     <meta name="author" content="Jarom Mariscal">
     <meta name="description"
         content="This website is for Cozumel Motocycle Rentals, contains information about our vehicles">
+    <!--https://coolors.co/4696da-222222-ffffff-8b9474-6cae75-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/weather.js" defer></script>
+
 </head>
 
 <body>
+    <header>
+        <img src="images/logo1.webp" alt="Cozumel Rentals' logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 600px)" srcset="images/med-hero.webp">
+                <source media="(min-width: 900px)" srcset="images/larger-hero.webp">
+                <img src="images/min-hero.webp" alt="A hero image" width="600" height="396">
+            </picture>
+            <div class="banner-hero">
+                <h1>Enjoy your visit in Cozumel </h1>
+                <a href="reservations.html">Book now</a>
+            </div>
+        </div>
+        <div class="content">
+            <section class="card">
+                <h2>Weather</h2>
+                <img width="60" height="60" id="weather-img">
+                <h3><span id="description"></span></h3>
+                <div>
+                    <p>Temperature: <span id="temperature"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Next day Forescated: <span id="forescated"></span></p>
+                </div>
+            </section>
+        </div>
 
+    </main>
+    <footer>
+        <p>©Jarom Mariscal 2023</p>
+    </footer>
 </body>
 
 </html>
