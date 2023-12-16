@@ -1,0 +1,201 @@
+{
+    "rentals":[
+        {
+            "scooters":[
+                {
+                    "vehicle": "Honda Metropolitan (49cc)",
+                    "rentalType": "Honda Metro Scooter",
+                    "passengers": 1,
+                    "image":"",
+                    "prices":[
+                        {
+                            "reservation":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":20
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":30
+                                }
+                            ]
+                        },
+                        {
+                            "Walk-In":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":25
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":35
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicle":"Honda Dio (110cc)",
+                    "rentalType": "Honda Dio Scooter",
+                    "passengers": 2,
+                    "image":"",
+                    "prices":[
+                        {
+                            "reservation":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":30
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":40
+                                }
+                            ]
+                        },
+                        {
+                            "Walk-In":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":35
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":45
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicle":"Honda PCX150 (149cc)",
+                    "rentalType": "Honda PCX150 Scooter",
+                    "passengers":2,
+                    "image":"",
+                    "prices":[
+                        {
+                            "reservation":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":40
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":50
+                                }
+                            ]
+                        },
+                        {
+                            "Walk-In":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":45
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":55
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "ATVs":[
+                {
+                    "vehicle":"Honda Pioneer 1000",
+                    "rentalType": "Honda Pioner ATV",
+                    "passengers":4,
+                    "prices":[
+                        {
+                            "reservation":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":50
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":70
+                                }
+                            ]
+                        },
+                        {
+                            "Walk-In":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":60
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":80
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Jeeps":[
+                {
+                    "vehicle":"Jeep Wrangler - 4 door manuel with A/C",
+                    "rentalType": "Jeep Wrangler - 4 door with A/C",
+                    "passengers":5,
+                    "prices":[
+                        {
+                            "reservation":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":70
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":100
+                                }
+                            ]
+                        },
+                        {
+                            "Walk-In":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":85
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":125
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "vehicle":"Jeep Wrangler - 2 door - open air - manuel",
+                    "rentalType": "Jeep Wrangler - 2 door",
+                    "passengers":4,
+                    "prices":[
+                        {
+                            "reservation":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":60
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":85
+                                }
+                            ]
+                        },
+                        {
+                            "Walk-In":[
+                                {
+                                    "type":"Half Day",
+                                    "cost":70
+                                },
+                                {
+                                    "type":"Full Day",
+                                    "cost":90
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

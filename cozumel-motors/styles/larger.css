@@ -1,0 +1,105 @@
+@media screen and (min-width: 900px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem;
+    }
+
+    .banner-hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero div a {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        text-align: left;
+        align-items: start;
+    }
+
+    .pair {
+        order: initial;
+    }
+
+    .weather {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rentals {
+        padding: 2rem;
+        width: 100%;
+        grid-column: 1/3;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .rentals div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .rentals article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .rentals article span {
+        font-size: 4rem;
+    }
+
+    .rentals article img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-form img {
+        max-height: 900px;
+        height: 100vw;
+        overflow: hidden;
+    }
+
+    .hero-form {
+        position: absolute;
+        border-radius: 1rem;
+        top: 5%;
+        left: 2rem;
+    }
+
+    .hero-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    input {
+        padding: 0.5rem;
+    }
+
+    button {
+        box-sizing: content-box;
+        padding: 0.7rem 2rem;
+        width: fit-content;
+    }
+}

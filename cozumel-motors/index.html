@@ -38,7 +38,7 @@
             <picture>
                 <source media="(min-width: 600px)" srcset="images/med-hero.webp">
                 <source media="(min-width: 900px)" srcset="images/larger-hero.webp">
-                <img src="images/min-hero.webp" alt="A hero image" width="600" height="396">
+                <img src="images/min-hero.webp" alt="A hero image" width="600" height="396" loading="lazy">
             </picture>
             <div class="banner-hero">
                 <h1>Enjoy your visit in Cozumel </h1>
@@ -46,16 +46,58 @@
             </div>
         </div>
         <div class="content">
-            <section class="card">
+            <section class="info">
+                <h2>Welcome to Cozumel Rentals</h2>
+                <p>You are about finding new paths in your travel</p>
+                <p>Know our offers in reservations we have for you</p>
+                <a href="reservations.html" class="link-btn">Find out</a>
+            </section>
+            <section>
+                <img src="images/beach-re.webp" alt="Cozumel's beach" width="600" height="350" loading="lazy">
+            </section>
+            <section class="pair">
+                <img src="images/rz-weather.webp" alt="Sunrise with waves" width="600" loading="lazy">
+            </section>
+            <section class="weather">
                 <h2>Weather</h2>
-                <img width="60" height="60" id="weather-img">
+                <img width="60" height="60" id="weather-img" loading="lazy">
                 <h3><span id="description"></span></h3>
+
                 <div>
                     <p>Temperature: <span id="temperature"></span></p>
                     <p>Humidity: <span id="humidity"></span></p>
                     <p>Next day Forescated: <span id="forescated"></span></p>
                 </div>
             </section>
+            <section class="rentals">
+                <h2>Types of rentals</h2>
+                <p>You can choice the option fits your needs</p>
+                <div class="rental-types">
+                    <article>
+                        <h3>Scooters</h3>
+                        <p>Proves speed and agility in the way, drives where you want</p>
+                        <img src="images/scooter.webp" alt="scooter">
+                        <p>from <span>$20</span></p>
+                    </article>
+                    <article>
+                        <h3>Side By Side ATVs</h3>
+                        <p>Small but powerfull All terrain</p>
+                        <img src="images/atv.webp" alt="ATV quad">
+                        <p>from <span>$50</span></p>
+                    </article>
+                    <article>
+                        <h3>Jeeps</h3>
+                        <p>The best option to drive with friends</p>
+                        <img src="images/jeep.webp" alt="Jeep">
+                        <p>from <span>$60</span></p>
+                    </article>
+                </div>
+
+            </section>
+            <section>
+
+            </section>
+
         </div>
 
     </main>
