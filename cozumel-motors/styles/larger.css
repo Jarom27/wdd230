@@ -93,6 +93,27 @@
         gap: 0.5rem;
     }
 
+    #rentals-grid {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+
+    #rentals-grid article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rentals-grid article img {
+        max-width: 400px;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+        overflow: scroll;
+    }
+
     input {
         padding: 0.5rem;
     }

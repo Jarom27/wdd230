@@ -200,6 +200,29 @@ button {
     padding: 0.5rem 1rem;
 }
 
+.rentals-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+#rentals-grid article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#rentals-grid article img {
+    max-width: 300px;
+}
+
+#rentals-grid article h3 {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
