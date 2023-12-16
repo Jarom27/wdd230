@@ -1,4 +1,5 @@
 const rentalsGrid = document.getElementById("rentals-grid");
+
 const GetRentals = async () => {
     let response = await fetch("https://jarom27.github.io/wdd230/cozumel-motors/data/rentals.json");
     let data = await response.json();

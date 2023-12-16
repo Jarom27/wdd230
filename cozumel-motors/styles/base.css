@@ -148,6 +148,21 @@ span {
     order: 3;
 }
 
+.rentals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rentals article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .rentals article img {
     max-width: 300px;
     width: 150px;
@@ -158,6 +173,9 @@ span {
 }
 
 .rental-types {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-top: 2rem;
 }
 
@@ -206,6 +224,25 @@ button {
     align-items: center;
     padding: 2rem;
     text-align: center;
+}
+
+.reservations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--accent-green);
+}
+
+.agreements {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: disc;
+
+}
+
+.card {
+    background-color: var(--nav-link-text);
 }
 
 #rentals-grid article {

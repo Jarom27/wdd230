@@ -114,6 +114,26 @@
         overflow: scroll;
     }
 
+    .reservations {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .reservations form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .reservations form input {
+        width: 100%;
+    }
+
+
+
     input {
         padding: 0.5rem;
     }

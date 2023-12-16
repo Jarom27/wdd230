@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/weather.js" defer></script>
-
+    <script src="scripts/rentalTypes.js" defer></script>
 </head>
 
 <body>
@@ -33,3 +33,47 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <main class="reservations">
+        <div class="card">
+            <form action="index.html">
+                <h2>Reservation</h2>
+                <label for="firstname">First Name</label>
+                <input type="text" placeholder="Write your first name" id="firstname" required>
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Write your last name" id="lastname" required>
+                <label for="email" required>Email</label>
+                <input type="email" name="email" id="email" placeholder="Write your email">
+                <label for="rental-type">Type Rental</label>
+                <select name="rental-type" id="rental-type">
+
+                </select>
+                <label for="arrive-date">Arrive Date</label>
+                <input type="date" name="" id="arrive-date" required>
+                <label for="departure-date">Departure Date</label>
+                <input type="date" name="departure-date" id="departure-date" required>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <button type="submit">Book</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Agreements</h2>
+            <ul class="agreements">
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>©Jarom Mariscal 2023</p>
+    </footer>
+</body>
