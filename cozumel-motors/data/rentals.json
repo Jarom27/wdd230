@@ -1,201 +1,204 @@
 {
-    "rentals":[
+  "rentals": [
+    {
+      "scooters": [
         {
-            "scooters":[
+          "vehicle": "Honda Metropolitan (49cc)",
+          "rentalType": "Honda Metro Scooter",
+          "passengers": 1,
+          "image": "https://powersports.honda.com/motorcycle/scooter/-/media/products/family/metropolitan/hero/hero-left/metropolitan/2024/2024-metropolitan-hero-503x257.jpg",
+          "prices": [
+            {
+              "reservation": [
                 {
-                    "vehicle": "Honda Metropolitan (49cc)",
-                    "rentalType": "Honda Metro Scooter",
-                    "passengers": 1,
-                    "image":"",
-                    "prices":[
-                        {
-                            "reservation":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":20
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":30
-                                }
-                            ]
-                        },
-                        {
-                            "Walk-In":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":25
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":35
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "Half Day",
+                  "cost": 20
                 },
                 {
-                    "vehicle":"Honda Dio (110cc)",
-                    "rentalType": "Honda Dio Scooter",
-                    "passengers": 2,
-                    "image":"",
-                    "prices":[
-                        {
-                            "reservation":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":30
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":40
-                                }
-                            ]
-                        },
-                        {
-                            "Walk-In":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":35
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":45
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "Full Day",
+                  "cost": 30
+                }
+              ]
+            },
+            {
+              "Walk-In": [
+                {
+                  "type": "Half Day",
+                  "cost": 25
                 },
                 {
-                    "vehicle":"Honda PCX150 (149cc)",
-                    "rentalType": "Honda PCX150 Scooter",
-                    "passengers":2,
-                    "image":"",
-                    "prices":[
-                        {
-                            "reservation":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":40
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":50
-                                }
-                            ]
-                        },
-                        {
-                            "Walk-In":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":45
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":55
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "Full Day",
+                  "cost": 35
                 }
-            ],
-            "ATVs":[
+              ]
+            }
+          ]
+        },
+        {
+          "vehicle": "Honda Dio (110cc)",
+          "rentalType": "Honda Dio Scooter",
+          "passengers": 2,
+          "image": "https://www.honda.mx/web/img/motorcycles/models/scooter-motoneta/dio-110/colors/blanco.png",
+          "prices": [
+            {
+              "reservation": [
                 {
-                    "vehicle":"Honda Pioneer 1000",
-                    "rentalType": "Honda Pioner ATV",
-                    "passengers":4,
-                    "prices":[
-                        {
-                            "reservation":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":50
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":70
-                                }
-                            ]
-                        },
-                        {
-                            "Walk-In":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":60
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":80
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "Jeeps":[
-                {
-                    "vehicle":"Jeep Wrangler - 4 door manuel with A/C",
-                    "rentalType": "Jeep Wrangler - 4 door with A/C",
-                    "passengers":5,
-                    "prices":[
-                        {
-                            "reservation":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":70
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":100
-                                }
-                            ]
-                        },
-                        {
-                            "Walk-In":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":85
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":125
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "Half Day",
+                  "cost": 30
                 },
                 {
-                    "vehicle":"Jeep Wrangler - 2 door - open air - manuel",
-                    "rentalType": "Jeep Wrangler - 2 door",
-                    "passengers":4,
-                    "prices":[
-                        {
-                            "reservation":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":60
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":85
-                                }
-                            ]
-                        },
-                        {
-                            "Walk-In":[
-                                {
-                                    "type":"Half Day",
-                                    "cost":70
-                                },
-                                {
-                                    "type":"Full Day",
-                                    "cost":90
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "Full Day",
+                  "cost": 40
                 }
-            ]
+              ]
+            },
+            {
+              "Walk-In": [
+                {
+                  "type": "Half Day",
+                  "cost": 35
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vehicle": "Honda PCX150 (149cc)",
+          "rentalType": "Honda PCX150 Scooter",
+          "passengers": 2,
+          "image": "https://delcar.com.uy/wp-content/uploads/2021/02/5f81c966ccae800b497a10121.jpg",
+          "prices": [
+            {
+              "reservation": [
+                {
+                  "type": "Half Day",
+                  "cost": 40
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 50
+                }
+              ]
+            },
+            {
+              "Walk-In": [
+                {
+                  "type": "Half Day",
+                  "cost": 45
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 55
+                }
+              ]
+            }
+          ]
         }
-    ]
+      ],
+      "ATVs": [
+        {
+          "vehicle": "Honda Pioneer 1000",
+          "rentalType": "Honda Pioner ATV",
+          "passengers": 4,
+          "image": "https://powersports.honda.com/sxs/recutility/-/media/products/family/pioneer-1000/trims/trim-main/pioneer-1000/2024/2024-pioneer-1000-black_forest_green-650x380.png",
+          "prices": [
+            {
+              "reservation": [
+                {
+                  "type": "Half Day",
+                  "cost": 50
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 70
+                }
+              ]
+            },
+            {
+              "Walk-In": [
+                {
+                  "type": "Half Day",
+                  "cost": 60
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 80
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Jeeps": [
+        {
+          "vehicle": "Jeep Wrangler - 4 door manuel with A/C",
+          "rentalType": "Jeep Wrangler - 4 door with A/C",
+          "passengers": 5,
+          "image": "https://medias.fcacanada.ca/jellies/renditions/2024/800x510/CC24_JLJL74_2TB_PSE_APA_XXX_XXX_XXX.57fcce0ae13be1c2422960877a8e153b.png",
+          "prices": [
+            {
+              "reservation": [
+                {
+                  "type": "Half Day",
+                  "cost": 70
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 100
+                }
+              ]
+            },
+            {
+              "Walk-In": [
+                {
+                  "type": "Half Day",
+                  "cost": 85
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vehicle": "Jeep Wrangler - 2 door - open air - manuel",
+          "rentalType": "Jeep Wrangler - 2 door",
+          "passengers": 4,
+          "image": "https://medias.fcacanada.ca/jellies/renditions/2023/800x510/CC23_JLJL72_2TS_PSE_APA_XXX_XXX_XXX.d4bc521d2e05a59bce280af30aa2a664.png",
+          "prices": [
+            {
+              "reservation": [
+                {
+                  "type": "Half Day",
+                  "cost": 60
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 85
+                }
+              ]
+            },
+            {
+              "Walk-In": [
+                {
+                  "type": "Half Day",
+                  "cost": 70
+                },
+                {
+                  "type": "Full Day",
+                  "cost": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
